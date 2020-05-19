@@ -13,10 +13,6 @@ This repository is used to save algorithm learning materials.
 
 ### 《C++模板元编程》[下载地址](https://cloud.tsinghua.edu.cn/f/52923023a42546f49901/)
 
-## 博客
-
-### [并发编程网](http://ifeve.com/)
-
 ## 算法
 
 ### 图算法
