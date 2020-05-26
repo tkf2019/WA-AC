@@ -13,6 +13,12 @@ This repository is used to save algorithm learning materials.
 
 ### 《C++模板元编程》[下载地址](https://cloud.tsinghua.edu.cn/f/52923023a42546f49901/)
 
+##  学习网站推荐
+
+### [【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）](https://www.bilibili.com/video/BV1b7411e7ZP?from=search&seid=11412869390520159883)
+
+### [【完整版-麻省理工-算法导论】全23讲+课后习题及课件](https://www.bilibili.com/video/BV1Kx411f7bL?from=search&seid=11412869390520159883)
+
 ## 算法
 
 ### 图算法
