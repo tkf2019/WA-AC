@@ -1,6 +1,8 @@
 #include<iostream>
 #include<string>
 #include"Map.h"
+#include"Fibonacci_Heap.h"
+
 using namespace std;
 typedef TKF::pair<int, string> Pair;
 typedef TKF::map<int, string> Map;
@@ -23,8 +25,7 @@ int main(){
         cout << *i << endl;
     }
 
-    cout<<endl;
-
+    cout << endl;
     Map m2;
     m2.insert(Pair_5);
     m2.insert(Pair_3);
@@ -35,5 +36,20 @@ int main(){
     for (auto i = m2.begin(); i != m2.end(); i++) {
         cout << *i << endl;
     }
+
+    cout << endl;
+    TKF::FIBHeap<int, TKF::less<int>> f;
+    f.insert(1);
+    f.insert(4);
+    f.insert(3);
+    f.insert(1);
+    f.insert(6);
+    f.extract();
+    f.extract();
+    f.extract();
+    f.extract();
+    f.extract();
+
+    cout << f.empty();
     return 0;
 }
